@@ -1,0 +1,120 @@
+/* nonspecific page styling */
+
+textarea{
+    height: 200px;
+    width: 500px;
+}
+
+button{
+    font-size: large;
+}
+
+button:hover{
+    background-color: darkgrey;
+}
+
+h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 50px
+}
+
+
+/* home page styling */
+
+#home-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: aqua;
+}
+
+#home-link-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.home-page-links{
+    font-size: xx-large;
+    color: darkgrey;
+}
+
+.home-p{
+    font-size: xx-large;
+    color: royalblue;
+}
+
+
+#music-input-container, #movie-input-container, #book-input-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    margin-top: 50px;
+    margin-left: 25%;
+}
+
+.music-input-labels, .movie-input-labels, .book-input-labels{
+    margin-left: 15px;
+}
+
+#music-textarea-container, #movie-textarea-container, #book-textarea-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+#music-blog-container, #movie-blog-container, #book-blog-container  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 80%; /* Adjust width as needed */
+    max-width: 800px; /* Prevents it from being too wide */
+    border: solid 2px;
+    height: auto;
+    min-height: 400px;
+    overflow: visible;
+    padding: 10px;
+    margin: 20px auto; /* Centers it horizontally */
+}
+
+
+#music-blog-container p, #movie-blog-container p, #book-blog-container p {
+    width: 100%;
+    padding: 10px;
+    word-wrap: break-word; /* Prevents long text from overflowing */
+}
+
+.blog-container-label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50%;
+    margin-top: 50px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.post{
+    border-bottom: 2px solid gray; /* Border between posts */
+    padding: 10px;
+    margin-bottom: 20px; /* Space between posts */
+}

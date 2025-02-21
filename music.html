@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="blogStyle.css">
+</head>
+<body>
+
+    <a class="page-links" href="movies.html">Movies</a>
+    <a class="page-links" href="books.html">Books</a>
+    <a class="page-links" href="home.html">Home</a>
+
+    <h1>Music Blogs</h1>
+
+    <div id="music-input-container">
+        <label for="title" class="music-input-labels" >Title:</label>
+        <input type="text" id="title" placeholder="Enter Song Title"><br>
+        
+        <label for="creator" class="music-input-labels" >Artist:</label>
+        <input type="text" id="creator" placeholder="Enter Artist's Name"><br>
+        
+        <label for="name" class="music-input-labels" >Name:</label>
+        <input type="text" id="name" placeholder="Enter Your Name"><br>
+        
+        </div>
+        
+        <div id="music-textarea-container">
+        <textarea id="textarea" placeholder="Write your blog here."></textarea>
+        <button type="button" class="submit-btn" data-category="music">Submit</button>
+        </div>
+        
+        <label class="blog-container-label" for="music-blog-container">View blogs here:</label>
+        <div id="music-blog-container">
+        
+        </div>
+
+    <script src="blogScript.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="blogStyle.css">
+</head>
+<body>
+
+    <a class="page-links" href="home.html">Home</a>
+    <a class="page-links" href="books.html">Books</a>
+    <a class="page-links" href="music.html">Music</a>
+
+    <h1>Movie Blogs</h1>
+
+    <div id="movie-input-container">
+        <label for="title" class="movie-input-labels" >Title:</label>
+        <input type="text" id="title" placeholder="Enter Movie Title"><br>
+        
+        <label for="creator" class="movie-input-labels" >Director:</label>
+        <input type="text" id="creator" placeholder="Enter Director's Name"><br>
+        
+        <label for="name" class="movie-input-labels" >Name:</label>
+        <input type="text" id="name" placeholder="Enter Your Name"><br>
+        
+        </div>
+        
+        <div id="movie-textarea-container">
+        <textarea id="textarea" placeholder="Write your blog here." ></textarea>
+        <button type="button" class="submit-btn" data-category="movie">Submit</button>
+        </div>
+        
+        <label class="blog-container-label" for="movie-blog-container">View blogs here:</label>
+        <div id="movie-blog-container">
+       
+        </div>
+    <script src="blogScript.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="blogStyle.css">
+</head>
+<body id="books-body">
+
+ <div id="books-link-container">
+    <a class="books-page-links" href="movies.html">Movies</a>
+    <a class="books-page-links" href="home.html">Home</a>
+    <a class="books-page-links" href="music.html">Music</a>
+</div>
+
+<h1>Book Blogs</h1>
+
+<div id="book-input-container">
+<label for="title" class="book-input-labels" >Title:</label>
+<input type="text" id="title" placeholder="Enter Book Title"><br>
+
+<label for="creator" class="book-input-labels" >Author:</label>
+<input type="text" id="creator" placeholder="Enter Author's Name"><br>
+
+<label for="name" class="book-input-labels" >Name:</label>
+<input type="text" id="name" placeholder="Enter Your Name"><br>
+
+</div>
+
+<div id="book-textarea-container">
+<textarea id="textarea" placeholder="Write your blog here."></textarea>
+<button type="button" class="submit-btn" data-category="book">Submit</button>
+</div>
+
+<label class="blog-container-label" for="book-blog-container">View blogs here:</label>
+<div id="book-blog-container">
+
+</div>
+
+    <script src="blogScript.js"></script>
+</body>
+</html>
